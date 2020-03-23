@@ -29,7 +29,7 @@ done
 echo ""
 for key in "${!singletCombinationDictionary[@]}"                                              #
 do
-   echo "${key}:${singletCombinationDictionary[$key]}"
+	echo "${key}:${singletCombinationDictionary[$key]}"
 done
 
 #Calculated the percentage of singlet
